@@ -1,4 +1,4 @@
-*, *:before, *:after`
+*, *:before, *:after
 {
   box-sizing: border-box;
 }
@@ -6,15 +6,15 @@
 body {
   font-family: sans-serif;
   font-size: 10px;
-  background-color: #d3d3d3
+  background-color: #333
 }
 
 .container {
   margin: 0 auto;
-  width: 175%;
-  height: 70%
-  box-sizing:border-box;
-  line-height: 1.5;
+  width: 420px;
+  height: 70%;
+  line height: 1.5;
+  background-color: #ffffff;
 }
 
 nav {
@@ -26,12 +26,9 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 50px;
-  box-sizing: border-box;
+  padding-top: 53px;
   float:left;
-  margin: 10px 1% 0 1%;
   height: 75%;
-  width: 30%;
 }
 .content {
   float: left;
@@ -40,7 +37,7 @@ nav {
 
 .location {
   border-bottom: 1px solid #777;
-  background-color: ##30189b;
+  background-color: #dadada;
   float: left;
   padding: 20px;
   width: 100%;
